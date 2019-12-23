@@ -1,0 +1,10 @@
+-------------------------------------------------------------------------------
+Test set: com.cts.HospitalFrontDeskApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 7.52 s <<< FAILURE! - in com.cts.HospitalFrontDeskApplicationTests
+testGetSpecialistListSuccess  Time elapsed: 1.651 s  <<< ERROR!
+org.springframework.web.client.ResourceAccessException: I/O error on GET request for "http://localhost:8080/hospital/apollo/cardiologist": Connection refused: connect; nested exception is java.net.ConnectException: Connection refused: connect
+	at com.cts.HospitalFrontDeskApplicationTests.testGetSpecialistListSuccess(HospitalFrontDeskApplicationTests.java:21)
+Caused by: java.net.ConnectException: Connection refused: connect
+	at com.cts.HospitalFrontDeskApplicationTests.testGetSpecialistListSuccess(HospitalFrontDeskApplicationTests.java:21)
+
